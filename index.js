@@ -5,6 +5,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true });
 const sellerUsername = process.env.SELLER_USERNAME;
 
+
 // Хранение корзин пользователей
 const carts = new Map();
 
